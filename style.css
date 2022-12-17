@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+ul {
+  padding-left: 21%;
+}
+
+h1,
+img {
+  display: block;
+  margin: 12px auto;
+}
+
+.container {
+  width: 40vw;
+  background: #ffb084;
+  border-radius: 20px;
+  display: grid;
+  padding: 30px 40px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  gap: 1.2rem;
+  grid-template-columns: 1fr 0.7fr 0.8fr;
+  grid-template-rows: 1.7fr 1.5fr 0.7fr 0.1fr;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 7px 7px 0px #000000;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.hero-card {
+  grid-area: 1 / 1 / 5 / 2;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 10px 0 0 10px;
+}
+
+.hero-card p {
+  margin: 0 0 14px;
+  padding-left: 15px;
+}
+
+.hero-card img {
+  margin-bottom: 17px;
+}
+
+.i-want {
+  grid-column: 1;
+  padding: 0;
+  padding: 15px 5px 15px 25px;
+}
+
+.bio {
+  grid-area: 1 / 2 / 2 / 4;
+  padding: 0 6%;
+}
+
+.bio h2 {
+  padding-left: 0;
+}
+
+.goals {
+  grid-area: 2 / 2 / 3 / 3;
+  box-shadow: 7px 7px 0px #29a71e;
+  padding: 0 6%;
+}
+
+.goals > h2 {
+  color: #29a71e;
+  margin-bottom: 5px;
+}
+
+.dream {
+  grid-area: 3 / 2 / 6/ 3;
+  box-shadow: 7px 7px 0px #3675b0;
+  padding: 0 6%;
+}
+
+.dream > h2 {
+  color: #3675b0;
+  margin-bottom: 5px;
+}
+
+.frustrations {
+  grid-area: 2 / 3 / 4 / 4;
+  box-shadow: 7px 7px 0px #e13535;
+  padding: 15px 4%;
+}
+
+.frustrations > h2 {
+  color: #e13535;
+  margin-bottom: 5px;
+}
+
+.personality {
+  grid-area: 4 / 3 / 6 / 4;
+  padding: 15px 30px;
+}
+
+.personality > h2 {
+  padding-left: 0;
+}
