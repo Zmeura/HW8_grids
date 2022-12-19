@@ -28,7 +28,7 @@ img {
   grid-template-columns: 1fr 0.7fr 0.8fr;
   grid-template-rows: 1.7fr 1.5fr 0.7fr 0.1fr;
   margin: 0 auto;
-  margin-top: 20vh;
+  margin-top: 60px;
 }
 
 .card {
