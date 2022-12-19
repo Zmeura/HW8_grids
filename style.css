@@ -14,7 +14,8 @@ img {
 }
 
 .container {
-  width: 40vw;
+  max-width: 755px;
+  width: 100%;
   background: #ffb084;
   border-radius: 20px;
   display: grid;
